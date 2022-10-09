@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: antiquewhite; */
+
+    background-image: radial-gradient(#22c1c3, #fdbb2d);
+
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    border: 3px solid #f1f6e5;
+    border-radius: 2%;
+    /* background-color: #fdbb2d, #f1f6e5; */
+    background-image: linear-gradient ( #f1f6e5,#fdbb2d);
+}
+
+.navbar nav img {
+    display: block;
+    width: 80px;
+    height: 75px;
+    margin: auto;
+    margin-top: -12px;
+
+}
+
+.navbar nav a {
+    text-decoration: none;
+    display: block;
+    margin: 11px auto;
+    float: left;
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    /* cursor: pointer; */
+
+}
+
+.search {
+    float: right;
+    margin: 24px 53px;
+    padding: 2px;
+    width: 25em;
+    background-color: cornsilk;
+    border: 2px solid #f1f6e5;
+    border-radius: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin: 30px 299px; */
+    display: block;
+    margin: auto;
+    font-size: 50px;
+
+}
+
+span {
+    color: green;
+}
+
+.container {
+    margin: 30px 60px;
+    padding: 6px 30px;
+    border: 4px solid #f1f6e5;
+    border-radius: 6%;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-style: oblique;
+
+
+}
+
+.blog1 {
+    font-family: Georgia, 'Times New Roman';
+    font-size: 18px;
+
+}
+
+p::first-letter {
+    font-size: 250%;
+    color:darkred;
+}
+
+.blog1Img{
+    display: block;
+    margin: auto;
+    border-radius: 10%;
+    border: 3px solid plum;
+}
+
+.blog2Img{
+    display: block;
+    margin: 10px auto;
+    height: 350px;
+    width: 600px;
+    border-radius: 10%;
+    border: 3px solid plum;
+    /* padding: 10px; */
+
+}
+
+.copyright{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
